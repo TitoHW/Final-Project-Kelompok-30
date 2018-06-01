@@ -6,12 +6,20 @@
 
 body{
 	overflow-x:hidden;
+	height: 2000px;
+}
+
+.secondary{
+	background-color: #34495e;
 }
 
 header{
-	background-color: #34495e;
+	
 	height:85px; 
 	line-height: 80px;
+	position: fixed;
+	z-index: 1;
+	width: 100%;
 }
 
 ul{
